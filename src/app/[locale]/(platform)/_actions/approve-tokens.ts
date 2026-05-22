@@ -45,6 +45,7 @@ const WALLET_TX_POLL_DELAY_MS = 2_000
 const PUBLIC_WALLET_SUBMIT_METADATA = new Set([
   'approve_tokens',
   'auto_redeem_approval',
+  'claim_fees',
 ])
 
 function sleep(ms: number) {
